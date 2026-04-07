@@ -8,3 +8,101 @@
       <!-- permite usar acento e caracteres especiais -->
       <meta name="viewport" content="widt=device-wih, initial-scal=1.0">
       <!-- faz o site se adaptar a celulares (responsividade) -->
+
+      <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agroforte | Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="header">
+        <nav class="container">
+            <div class="logo">Agro<span>forte</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+                <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content container reveal">
+                <h1>O Equilíbrio entre Produtividade e Natureza</h1>
+                <p>Inovação tecnológica no campo para garantir o alimento de hoje preservando o amanhã.</p>
+                <a href="#sobre" class="btn">Saiba Mais</a>
+            </div>
+        </section>
+
+        <section id="tecnologias" class="highlights container">
+            <div class="card reveal">
+                <div class="icon">🌱</div>
+                <h3>Manejo Consciente</h3>
+                <p>Técnicas que preservam a saúde do solo e reduzem o uso de insumos químicos.</p>
+            </div>
+            <div class="card reveal">
+                <div class="icon">🛰️</div>
+                <h3>Tecnologia de Precisão</h3>
+                <p>Monitoramento via satélite e drones para otimizar cada metro quadrado da colheita.</p>
+            </div>
+            <div class="card reveal">
+                <div class="icon">🌳</div>
+                <h3>Reflorestamento</h3>
+                <p>Integração lavoura-pecuária-floresta para neutralização de carbono ativa.</p>
+            </div>
+        </section>
+
+        <section id="sobre" class="about container">
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <h2>O Conceito Agroforte</h2>
+                    <p>A Agroforte nasceu da necessidade de unir o setor produtivo às metas globais de conservação. Acreditamos que a alta performance agrícola não precisa ser inimiga do meio ambiente.</p>
+                    <p>Nossas soluções focam em bioestimulantes, gestão hídrica inteligente e educação ambiental para produtores de todos os portes.</p>
+                </div>
+                <div class="about-image reveal">
+                    <img src="https://via.placeholder.com/600x400/2d5a27/ffffff?text=Agroforte+Sustentável" alt="Plantação Sustentável">
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contact container">
+            <div class="reveal">
+                <h2>Fale Conosco</h2>
+                <form id="contactForm">
+                    <input type="text" id="name" placeholder="Seu Nome" required>
+                    <input type="email" id="email" placeholder="Seu E-mail" required>
+                    <textarea id="message" placeholder="Como podemos ajudar?" rows="5" required></textarea>
+                    <button type="submit" class="btn">Enviar Mensagem</button>
+                </form>
+                <div id="formFeedback"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h4>Agroforte</h4>
+                <p>Sede: Avenida das Palmeiras, 1000 - AgroVille</p>
+                <p>Email: contato@agroforte.com.br</p>
+            </div>
+            <div class="footer-social">
+                <a href="#">LinkedIn</a> | <a href="#">Instagram</a> | <a href="#">YouTube</a>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2024 Agroforte - Futuro Sustentável. Todos os direitos reservados.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
